@@ -10,7 +10,6 @@
 
     <name>mall-demo</name>
     <description>mall-demo project for mall</description>
-
     <parent>
         <groupId>com.macro.mall</groupId>
         <artifactId>mall-swarm</artifactId>
@@ -40,6 +39,11 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>5.3</version>
         </dependency>
     </dependencies>
 
