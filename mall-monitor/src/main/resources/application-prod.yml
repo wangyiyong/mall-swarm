@@ -3,4 +3,3 @@ spring:
     nacos:
       discovery:
         server-addr: http://nacos-registry:8848
-        group: mall
